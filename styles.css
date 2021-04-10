@@ -91,6 +91,8 @@ right: 60px;
 }
 .img-fluid {
    margin-top: 20px;
+   height:450px;
+   width:auto;
 }
 ul{
     list-style: none;
@@ -297,7 +299,7 @@ header{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .services{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .r {
   display: flex;
@@ -323,7 +325,7 @@ header{
   transition: 0.3s linear;
 }
 .column img:hover {
- 
+   width:101%;
 }
 @media screen and (max-width: 800px) {
   .column {
@@ -650,3 +652,7 @@ form {
  }
 
 
+ @media screen and (max-width: 800px)
+.column img {
+    filter: grayscale(0) brightness(1);
+}
